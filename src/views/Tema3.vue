@@ -39,19 +39,19 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_3/img_3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_3/img_3.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center Lista de #[strong autoridades de certificación de confianza].
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_3/img_4.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_3/img_4.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center Lista de #[strong autoridades confiables de sellado de tiempo].
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_3/img_5.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_3/img_5.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center Parámetros ajustables, como la vida útil máxima permitida de una respuesta #[strong OCSP].
 
@@ -64,7 +64,7 @@
       .col-lg-8
         hr.border-2
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  1 
@@ -75,7 +75,7 @@
         hr.border-2
 
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  2 
@@ -105,7 +105,7 @@
           .tarjeta.tarjeta.tarj_ava
             .p-4
               .h4 OCSP (Online Certificate Status Protocol)
-              El protocolo OCSP es utilizado por los servidores de seguridad para consultar la información de validez sobre los certificados de firma y autenticación.
+              p El protocolo OCSP es utilizado por los servidores de seguridad para consultar la información de validez sobre los certificados de firma y autenticación.
               ul.lista-ul--color
                 li 
                   i.lista-ul__vineta
@@ -129,7 +129,7 @@
             .col.mb-3.mb-sm-0
               .h5.mb-0 Revisar la siguiente infografía informativa acerca del programa Familias en Acción.
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/Infografia_Familias_en_accion.pdf')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -164,7 +164,7 @@
       .col-lg-8
         hr.border-2
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  1 
@@ -175,7 +175,7 @@
         hr.border-2
 
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  2 
@@ -186,7 +186,7 @@
         hr.border-2
 
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  3 

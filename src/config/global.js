@@ -24,13 +24,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Objetivos de diseño',
-            hash: 'objetivos',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Arquitectura X-Road®',
-            hash: 'arquitectura',
+            hash: 't_1_2',
           },
         ],
       },
@@ -59,7 +59,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Infraestructura Central',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -198,13 +198,17 @@ export default {
       {
         nombre: ['Eulises Orduz Amezquita', 'Luis Gabriel Urueta Alvarez'],
         cargo: 'Diseño Web y Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Ricardo Alonso González Vargas',
         cargo: 'Desarrollo front-End',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
-        nombre: 'Jenny Paola Montillo Gélvez',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
@@ -231,6 +235,10 @@ export default {
     {
       referencia:
         'Decreto 1008 de2018. [presidente de la Republica]. por el cual se establecen los lineamientos generales de la política de Gobierno Digital y se subroga el Capítulo 1 del Título 9 de la Parte 2 del Libro 2 del Decreto número 1078 de 2015, Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones. Junio 14 de 2018.',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MinTIC), “Manual para la implementación de la Estrategia de Gobierno Digital,” D. Of., vol. 2019, pp. 1–89, 2019.',
     },
     {
       referencia:

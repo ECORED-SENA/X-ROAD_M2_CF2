@@ -8,6 +8,8 @@
         .h3 1
       .h3 Objetivo de diseño y arquitectura
 
+    img.img-a.mb-5(src="@/assets/curso/tema_1/img_3.png")
+
     .titulo-segundo
       #t_1_1.h4 1.1 Objetivos de diseño
 
@@ -48,13 +50,13 @@
             strong Evidencia digital
             p.mb-2 Todos los mensajes procesados por X-Road© se pueden utilizar como evidencia digital. La solución técnica debe cumplir con los requisitos para sellos digitales según el DAS.
             .jumbo_1
-              p [eIDAS] Reglamento de la UE nº 910/2014 del Parlamento Europeo y del Consejo de 23 de julio de 2014 sobre identificación electrónica y servicios de confianza para transacciones electrónicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE.
+              p [eIDAS] #[a(href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32014R0910&from=IT" target="_blank").link-color Reglamento de la UE nº 910/2014 del Parlamento Europeo y del Consejo de 23 de julio de 2014] sobre identificación electrónica y servicios de confianza para transacciones electrónicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE.
 
         .row.justify-content-center.mb-3
           .col-lg-1
             ol.lista-ol
               li 
-                span.h4.span.list_5.m-top  6  
+                span.h4.span.list_5.m-top  5  
           .col-lg-11
             strong Llamadas de servicio
             p Todas las comunicaciones se implementan como llamadas de servicio SOAP o REST. Los servicios SOAP se describen mediante el lenguaje WSDL y los servicios REST se describen mediante la especificación OPENAPI v3.
@@ -66,7 +68,7 @@
                 span.h4.span.list_1.m-top  6  
           .col-lg-11
             strong Servicios transfronterizos
-            p Servicios transfronterizos: es posible que una organización invoque servicios proporcionados por una organización que pertenece a una instancia diferente de X-Road©.
+            p Es posible que una organización invoque servicios proporcionados por una organización que pertenece a una instancia diferente de X-Road©.
 
         .row.justify-content-center.mb-3
           .col-lg-1
@@ -93,7 +95,7 @@
                 span.h4.span.list_4.m-top  9  
           .col-lg-11
             strong Sin roles predeterminados
-            p Sin roles predeterminados: una vez que una organización se ha unido a la infraestructura de X-Road©, puede actuar como cliente y como proveedor de servicios sin tener que realizar ningún registro adicional.
+            p Una vez que una organización se ha unido a la infraestructura de X-Road©, puede actuar como cliente y como proveedor de servicios sin tener que realizar ningún registro adicional.
 
         .row.justify-content-center.mb-3
           .col-lg-1
@@ -102,7 +104,7 @@
                 span.h4.span.list_5.m-top  10  
           .col-lg-11
             strong Autenticación de dos niveles
-            p Autenticación de dos niveles: el núcleo de X-Road® solo se ocupa del control de acceso entre organizaciones, donde el acceso se otorga a una organización en su conjunto. La organización del cliente debe asegurarse de que solo las personas adecuadas puedan utilizar el servicio, utilizando cualquier medio técnico que considere apropiado.
+            p El núcleo de X-Road® solo se ocupa del control de acceso entre organizaciones, donde el acceso se otorga a una organización en su conjunto. La organización del cliente debe asegurarse de que solo las personas adecuadas puedan utilizar el servicio, utilizando cualquier medio técnico que considere apropiado.
         hr.hr.border-3.mb-5
 
     .titulo-segundo
@@ -117,7 +119,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arquitectura X-Road®
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('https://x-road.global/xroad-world-map')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('https://x-road.global/architecture')" target="_blank")
                 span Enlace Web
                 i.fas.fa-link
 

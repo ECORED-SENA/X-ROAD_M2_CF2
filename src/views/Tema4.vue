@@ -27,14 +27,14 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.im_ava.mb-3(src='@/assets/curso/tema_4/img_3.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_3.svg' alt='AvatarTop')
           .tarjeta.tarj_ava2.p-4
             .h6.text-center Para el cliente
             p.text-center Para el cliente, el #[strong servidor de seguridad] actúa como un punto de entrada a todos los servicios de X-Road©.
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.im_ava.mb-3(src='@/assets/curso/tema_4/img_4.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_4.svg' alt='AvatarTop')
           .tarjeta.tarj_ava2.p-4
             .h6.text-center SI del cliente
             p.text-center El SI del cliente es responsable de implementar un mecanismo de #[strong control de acceso y autenticación] de usuario que cumpla con los requisitos de la instancia particular de #[strong X-Road]©.
@@ -42,14 +42,14 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.im_ava.mb-3(src='@/assets/curso/tema_4/img_5.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_5.svg' alt='AvatarTop')
           .tarjeta.tarj_ava2.p-4
             .h6.text-center Identidad usuario
             p.text-center La identidad del usuario final se pone a disposición del #[strong proveedor] de servicios incluyéndose en la solicitud de servicio.
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.im_ava.mb-3(src='@/assets/curso/tema_4/img_6.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_6.svg' alt='AvatarTop')
           .tarjeta.tarj_ava2.p-4
             .h6.text-center Miembros
             p.text-center El cliente puede #[strong descubrir] los miembros de X-Road© y los servicios disponibles utilizando el #[strong protocolo de metadatos de X-Road]©.
@@ -65,7 +65,7 @@
       .col-lg-8
         hr.border-2
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  1 
@@ -76,7 +76,7 @@
         hr.border-2
 
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  2 

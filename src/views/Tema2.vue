@@ -37,19 +37,19 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_2/img_3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_2/img_3.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center Administrar claves para #[strong firma] y #[strong autenticación].
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_2/img_4.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_2/img_4.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center #[strong Enviar mensajes] a través de un canal seguro.
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img.mb-3(src='@/assets/curso/tema_2/img_5.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema_2/img_5.svg' alt='AvatarTop')
           .tarjeta.tarj_ava.p-4
             p.text-center Crear el #[strong valor de prueba] para los mensajes con firmas digitales.
 
@@ -64,7 +64,7 @@
       .col-lg-8
         hr.border-2
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  1 
@@ -86,7 +86,7 @@
         hr.border-2
 
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-auto
             ol.lista-ol
               li 
                 span.h4.span.list_1.m-top  2 

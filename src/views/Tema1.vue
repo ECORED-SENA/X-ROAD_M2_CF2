@@ -119,9 +119,11 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arquitectura X-Road®
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('https://x-road.global/architecture')" target="_blank")
+              a.boton.boton--b(href="https://x-road.global/architecture" target="_blank")
                 span Enlace Web
                 i.fas.fa-link
+
+                
 
   
 </template>

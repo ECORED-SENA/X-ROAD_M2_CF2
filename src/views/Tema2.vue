@@ -72,7 +72,7 @@
             h6.mb-3 Monitoreo del entorno (Environmental monitoring)
             p.mb-3 Se encarga de obtener información acerca de la plataforma de los #[strong servidores de seguridad]:
             
-            ol.lista-ol
+            ol.lista-ol.mr
               li 
                 span 1
                 | Procesos que se están ejecutando.
@@ -94,7 +94,7 @@
             h6.mb-3 Monitoreo operacional (Operational monitoring)
             p.mb-3 Está centrado en los #[strong servicios] y permite obtener información relacionada:
             
-            ol.lista-ol
+            ol.lista-ol.mr
               li 
                 span 1
                 | Qué servicios han sido llamados.

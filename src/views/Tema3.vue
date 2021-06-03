@@ -67,7 +67,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  1 
+                span.h2.span.list_1.m-top  1 
           .col-lg-10
             h6.mb-3 Base de datos de miembros
             p.mb-3 Tanto la #[strong base de datos de miembros] como la #[strong política de seguridad] están disponibles para los servidores de seguridad a través del #[strong protocolo HTTP]. Este conjunto distribuido de datos forma la #[strong configuración global].
@@ -78,7 +78,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  2 
+                span.h2.span.list_1.m-top  2 
           .col-lg-10
             h6.mb-3 Configuración global
             p.mb-3 La #[strong configuración global] está disponible para descargar desde el #[strong servidor central], los #[strong servidores de seguridad] usan esa información para conocer dónde están los servicios y otros servidores de seguridad.
@@ -167,7 +167,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  1 
+                span.h2.span.list_1.m-top  1 
           .col-lg-10
             h6.mb-3 ¿Qué es?
             p.mb-3 El #[strong proxy de configuración] descarga la configuración, la almacena y la pone a disposición para su descarga. Por lo tanto, se puede utilizar para aumentar la #[strong disponibilidad] del sistema mediante la creación de una fuente de #[strong configuración adicional] y reducir así la carga en el servidor central.
@@ -178,7 +178,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  2 
+                span.h2.span.list_1.m-top  2 
           .col-lg-10
             h6.mb-3 ¿Qué implementa?
             p.mb-3 El #[strong proxy de configuración] implementa tanto la parte del cliente como la parte del servidor del protocolo de distribución de la configuración. Es una clase de componente auxiliar que se puede utilizar cuando #[strong Trust Federation] se encuentre activo. #[strong Es opcional su implementación].
@@ -189,7 +189,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  3 
+                span.h2.span.list_1.m-top  3 
           .col-lg-10
             h6.mb-3 Ecosistemas X-Road©
             p.mb-3 Dos #[strong ecosistemas X-Road]© se pueden comunicar (#[strong federar]). La federación es una relación uno a uno entre dos ecosistemas. Los miembros de los ecosistemas federados pueden #[strong publicar y consumir] servicios entre ellos como si fueran miembros del mismo ecosistema.

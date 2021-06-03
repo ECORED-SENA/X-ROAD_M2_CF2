@@ -68,7 +68,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  1 
+                span.h2.span.list_1.m-top  1 
           .col-lg-10
             h6.mb-3 Servicios Web
             p.mb-3 El #[strong sistema de información] implementa un servicio web #[strong SOAP] o REST y lo pone a disposición sobre #[strong X-Road]©.
@@ -79,7 +79,7 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  2 
+                span.h2.span.list_1.m-top  2 
           .col-lg-10
             h6.mb-3 REST / SOAP
             p.mb-3 Un servicio #[strong SOAP] debe ir acompañado de una descripción del servicio #[strong WSDL], y un servicio #[strong REST] puede ir acompañado de una especificación OpenAPI v3.

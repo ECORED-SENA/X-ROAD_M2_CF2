@@ -67,20 +67,20 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  1 
+                span.h2.span.list_1.m-top  1 
           .col-lg-10
             h6.mb-3 Monitoreo del entorno (Environmental monitoring)
             p.mb-3 Se encarga de obtener información acerca de la plataforma de los #[strong servidores de seguridad]:
             
             ol.lista-ol.mr
               li 
-                span 1
+                span 1.
                 | Procesos que se están ejecutando.
               li 
-                span 2
+                span 2.
                 | Paquetes que están instalados.
               li 
-                span 3
+                span 3.
                 | Espacio en disco.
 
         hr.border-2
@@ -89,20 +89,20 @@
           .col-auto
             ol.lista-ol
               li 
-                span.h4.span.list_1.m-top  2 
+                span.h2.span.list_1.m-top  2 
           .col-lg-10
             h6.mb-3 Monitoreo operacional (Operational monitoring)
             p.mb-3 Está centrado en los #[strong servicios] y permite obtener información relacionada:
             
             ol.lista-ol.mr
               li 
-                span 1
+                span 1.
                 | Qué servicios han sido llamados.
               li 
-                span 2
+                span 2.
                 | Cuántas veces han sido llamados los servicios.
               li 
-                span 3
+                span 3.
                 | Tiempos de respuesta.
 
         hr.border-2

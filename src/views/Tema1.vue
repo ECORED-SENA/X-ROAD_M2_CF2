@@ -31,7 +31,7 @@
               li 
                 span.h4.span.list_2.m-top  2 
           .col-lg-11
-            strong Propiedad de los dato
+            strong Propiedad de los datos
             p X-Road© no cambia la propiedad de los datos. El propietario de los datos (proveedor de servicios) controla quién puede acceder a determinados servicios.
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-1

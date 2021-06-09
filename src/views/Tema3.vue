@@ -127,7 +127,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              .h5.mb-0 Revisar la siguiente infografía informativa acerca del programa Familias en Acción.
+              .h5.mb-0 Revisar la siguiente infografía informativa acerca de la infraestructura de llave pública.
             .col-sm-auto
               a.boton.boton--b(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                 span Descargar
